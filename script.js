@@ -1,3 +1,4 @@
+alert("This is my First working Website!")
 // Grab the elements we need from the page
 const searchInput = document.getElementById("searchInput");
 const searchBtn   = document.getElementById("searchBtn");
