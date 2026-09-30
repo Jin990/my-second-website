@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wild &amp; Bloom Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Wild &amp; Bloom</h1>
+    <p>Animals and flowers, all in one place.</p>
+
+    <!-- SEARCH BOX -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search: tiger, cat, flower..." aria-label="Search images">
+      <button id="searchBtn">Search</button>
+      <button id="clearBtn" class="secondary">Show all</button>
+    </div>
+  </header>
+
+  <main>
+    <p id="message"></p>
+
+    <section class="gallery" id="gallery">
+
+      <figure data-keywords="tiger animal wild cat big cat stripes jungle">
+        <img src="images/tiger.jpg" alt="A tiger">
+        <figcaption>Tiger</figcaption>
+      </figure>
+
+      <figure data-keywords="lion animal wild cat big cat king jungle ">
+        <img src="images/lion.jpg" alt="A lion">
+        <figcaption>Lion</figcaption>
+      </figure>
+
+      <figure data-keywords="cat animal pet kitten cute">
+        <img src="images/cat.jpg" alt="A cat">
+        <figcaption>Cat</figcaption>
+      </figure>
+     
+         <figure data-keywords="rose flower red garden bloom">
+        <img src="images/rose.jpg" alt="A rose">
+        <figcaption>Rose</figcaption>
+      </figure>
+
+         <figure data-keywords="lotus flower water pond pink bloom">
+        <img src="images/lotus.jpg" alt="A lotus">
+        <figcaption>Lotus</figcaption>
+      </figure>
+
+
+
+      <figure data-keywords="elephant animal wild big trunk">
+        <img src="images/elephant.jpg" alt="An elephant">
+        <figcaption>Elephant</figcaption>
+      </figure>
+
+    
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Wild &amp; Bloom</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
